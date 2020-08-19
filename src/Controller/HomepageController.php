@@ -23,7 +23,7 @@ class HomepageController extends AbstractController
     }
 
     /**
-     * @Route("/contactOld", name="contact")
+     * @Route("/contactOld")
      */
     public function contact(): Response
     {

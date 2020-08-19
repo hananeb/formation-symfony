@@ -26,7 +26,7 @@ class Contact
 
     /**
      * @ORM\Column(type="text")
-     * @Assert\Length(max=256)
+     * @Assert\Length(max="2")
      */
     private $message;
 
